@@ -20,7 +20,7 @@ video {
    opacity: .5;
 }
 
-#polina { 
+.polina { 
   font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
   font-weight:100; 
   background: rgba(0,0,0,0.3);
@@ -102,58 +102,4 @@ li{
 
 li:hover{
     background-color: deepskyblue;
-}
-
-span{
-    margin-left: 10px;
-    color: black;
-    font-weight: 800;
-}
-
-#section-1{
-    height: 70vh;
-}
-
-#section-2{
-    height: auto;
-    text-align: center;
-}
-
-#section-2 img{
-    margin: 20px;
-    height: 30vw;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1); 
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1); 
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1); 
-}
-
-
-#section-3{
-    background-color: red;
-}
-
-#section-4{
-
-}
-
-
-
-#section-4 h1{
-
-}
-
-
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
 }
