@@ -16,6 +16,16 @@
   crossorigin="anonymous"></script>
    
    <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+   
+   <script type="text/javascript"> 
+    $(document).bind("mobileinit", function () {
+        // jQuery Mobile's Ajax navigation does not work in all cases (e.g.,
+        // when navigating from a mobile to a non-mobile page), especially when going back, hence disabling it.
+        $.extend($.mobile, {
+            ajaxEnabled: false
+        });
+    }); 
+</script>
     
 </head>
 
