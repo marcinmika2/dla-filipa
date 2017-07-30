@@ -85,7 +85,7 @@ iframe {
 	bottom: 0;
 	max-height: 50%;
 	text-align: center;
-	overflow: visible;
+	overflow: scroll;
 }
 
 
@@ -144,10 +144,6 @@ button:hover {
 	
 	.left h1{
 		font-size: 19px;
-	}
-	
-	.right{
-		overflow: visible;
 	}
 	
 }
