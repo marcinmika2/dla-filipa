@@ -110,6 +110,10 @@ input:hover {
 	background-color: gainsboro;
 }
 
+#email{
+	margin-top: 10px;
+}
+
 button {
 	width: 90%;
 	height: 40px;
