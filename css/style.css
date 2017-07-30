@@ -85,6 +85,7 @@ iframe {
 	bottom: 0;
 	max-height: 50%;
 	text-align: center;
+	overflow: visible;
 }
 
 
