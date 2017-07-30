@@ -2,7 +2,7 @@
 $(document).ready(function(){
     'use strict';
 
-$('.content').slideUp()
+$('.content').hide();
 	
 		$('.menu-1').click(function(){
 			$('.content').slideUp()
