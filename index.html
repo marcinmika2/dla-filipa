@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/facebook/css/font-awesome.min.css">
 	<link rel="stylesheet" href="fonts/tweeter/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-   
-    <script
+   <script
   src="http://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
@@ -18,26 +18,34 @@
 </head>
 
 <body>
-    
+
 <video src="http://thenewcode.com/assets/videos/polina.webm" preload="auto" poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop controls webkit-playsinline>
 
 </video>
+ 
 
 <section class="polina left">
-<h1>PlanMedia</h1>
-<a class="menu-4" href="#">O Nas</a>
-<a class="menu-3" href="#">Nasza Oferta</a>
-<a class="menu-2" href="#">Kontakt</a>
-<a class="menu-1" href="#">My</a>
+<h1>Marcin Mika</h1>
+<div class="topnav" id="myTopnav">
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+<a class="menu-4" href="#">Kontakt</a>
+<a class="menu-3" href="#">Doświadczenie</a>
+<!--<a class="menu-2" href="#">Kontakt</a>-->
+<a class="menu-1" href="#">O mnie</a>
+</div>
 </section>
 
 
 <section class="polina right">
 
-<article class="content menu1">MENU-1 ipsum dolor sit amet, consectetur adipisicing elit. Optio velit officia dignissimos, eveniet cum alias numquam, perferendis qui vel animi vero sequi explicabo, facere molestias. Maiores quos odit pariatur perferendis.</article>
+<article class="content menu1">Jestem początkującym Front End Developerem. Mam doświadczenie w HTML, CSS, JavaScrip, które nabyłem przy robieniu projektów na BootCampie.</article>
 
-<article class="content menu2">
-		<div class="kontakt">
+<article class="content menu2"></article>
+<article class="content menu3">Doświadczenie w programowaniu w językach HTML/CSS/JavaScript zdobywałem podczas studiów inżynierskich, kursu Frond End Developer oraz w pracy projektowej. Posługuję się technologiami SASS i GULP, korzystam z repozytorium GIT, implementuję proste rozwiązania bazodanowe.</article>
+
+<article class="content menu4">
+
+<div class="kontakt">
 			<a href="https://www.linkedin.com/in/marcin-mika-b3413b56/" target="_blank"><i style="font-size:20px" class="fa">&#xf0e1;</i></a>
 
 		<a href="https://www.facebook.com/marcin.mika.752" target="_blank"><i class="fa fa-facebook" aria-hidden="true" style="font-size:20px"></i></a>
@@ -48,7 +56,7 @@
 		 <div class="kontakt">
 		<form action="submit"> 
 			
-			<input type="email" name="email" placeholder="Enter your Emil"><br><br>
+			<input id="email" type="email" name="email" placeholder="Enter your Emil"><br><br>
 			<input type="tel" name="tel" placeholder="Enter your Phone number">	<br><br> 
 			
 			<button type="button" class="buttonColumn-2">Wyślij</button><br><br>
@@ -56,124 +64,12 @@
 		</div>
 		
 </article>
-<article class="content menu3">MENU-3 ipsum dolor sit amet, consectetur adipisicing elit. Earum fugit deleniti ipsam praesentium dolor corrupti, aperiam est nisi qui expedita non provident, deserunt tempora, suscipit aut tempore dicta eaque dolores!</article>
-
-<article class="content menu4">
-	<div class="gallery">
-  <a target="_blank" href="img_fjords.jpg">
-    <iframe preload="auto" src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_fjords.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_fjords.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-<div class="gallery">
-  <a target="_blank" href="img_fjords.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <iframe src="http://thenewcode.com/assets/videos/polina.webm" autoplay muted loop>
-</iframe>
-  </a>
-</div>
-</article>
 
 </section>
 
-
+<script src="js/hamburgerMenu.js"></script>
 <script src="js/menu-buttons.js"></script>
+
 
 
 </body>

@@ -135,11 +135,34 @@ div.gallery {
     width: 30%;
 }
 
-@media screen and (max-width: 500px) { 
-  div{width:30%;} 
+@media screen and (max-width: 600px) {
+	
+	.left h1{
+		display: none;
+	}
+	
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 @media screen and (max-device-width: 800px) {
-  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
-  #bgvid { display: none; }
+	html {
+		background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center fixed;
+	}
+	
+	  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 }
+
